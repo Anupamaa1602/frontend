@@ -58,7 +58,11 @@ color: white;
 
 .para button{
     border: none;
-    background-color:rgb(161, 211, 227);
+    background-color:rgb(96, 153, 172);
+    border-radius: 5px;
+    color: white;
+    width: 7rem;
+    height: 2rem;
 }
 .text form{
     display: flex;
