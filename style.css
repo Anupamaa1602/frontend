@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8px;
+    background-color: aliceblue;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxghc-tr94iHsyM1U_-iU-lMMI8AzQha2nHQ&s');
+    background-size: cover;
+
+}
+.navbar{
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+margin: 2px;
+align-items: center;
+}
+.links a{
+    text-decoration: none;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px ;
+
+}
+.text{
+    background-color: rgb(255, 253, 253);
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 300px;
+height: 20rem;
+}
+.text h2{
+
+margin-bottom: 1rem;
+}
+.para{
+    max-width: 50%;
+padding: 2rem;
+border-radius: 10px;
+line-height: 1rem;
+color: white;
+}
+.para h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.para p{
+    margin-bottom: 1rem;
+}
+.box{
+    display: flex;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.para button{
+    border: none;
+    background-color:rgb(161, 211, 227);
+}
+.text form{
+    display: flex;
+    flex-direction: column;
+}
+.text input[type="text"],
+.text input[type="email"],
+.text input[type="number"]
+{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.text label{
+    margin-bottom: 1rem;
+}
+.service{
+    max-width: 300px;
+    text-align: center;
+
+}
+.service h3{
+    color: black;
+    margin-bottom: o.5rem;
+    
+}
+.service p {
+font-size: 0.9rem;
+line-height: 1rem;
+}
+.table{
+    display: flex;
+    padding: 3rem 2rem;
+    background-color: #d8f0f0;
+    justify-content: space-around;
+}
